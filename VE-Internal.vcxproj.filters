@@ -15,44 +15,44 @@
     <ClInclude Include="SDK.hpp">
       <Filter>game</Filter>
     </ClInclude>
-    <ClInclude Include="SDK\VE_CoreUObject_classes.hpp">
-      <Filter>game\sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="SDK\VE_CoreUObject_parameters.hpp">
-      <Filter>game\sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="SDK\VE_CoreUObject_structs.hpp">
-      <Filter>game\sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="SDK\VE_Engine_classes.hpp">
-      <Filter>game\sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="SDK\VE_Engine_parameters.hpp">
-      <Filter>game\sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="SDK\VE_Engine_structs.hpp">
-      <Filter>game\sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="SDK\VE_Basic.hpp">
-      <Filter>game\sdk</Filter>
-    </ClInclude>
     <ClInclude Include="framework.h">
       <Filter>framework</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\VX_CoreUObject_classes.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VX_CoreUObject_structs.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VX_CoreUObject_parameters.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VX_Engine_parameters.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VX_Engine_classes.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VX_Engine_structs.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VX_Basic.hpp">
+      <Filter>game\sdk</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SDK\VE_CoreUObject_functions.cpp">
-      <Filter>game\sdk</Filter>
-    </ClCompile>
-    <ClCompile Include="SDK\VE_Engine_functions.cpp">
-      <Filter>game\sdk</Filter>
-    </ClCompile>
-    <ClCompile Include="SDK\VE_Basic.cpp">
-      <Filter>game\sdk</Filter>
-    </ClCompile>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="SDK.cpp">
       <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\VX_CoreUObject_functions.cpp">
+      <Filter>game\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\VX_Engine_functions.cpp">
+      <Filter>game\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\VX_Basic.cpp">
+      <Filter>game\sdk</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

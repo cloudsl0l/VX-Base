@@ -143,20 +143,20 @@
   <ItemGroup>
     <ClInclude Include="framework.h" />
     <ClInclude Include="SDK.hpp" />
-    <ClInclude Include="SDK\VE_Basic.hpp" />
-    <ClInclude Include="SDK\VE_CoreUObject_classes.hpp" />
-    <ClInclude Include="SDK\VE_CoreUObject_parameters.hpp" />
-    <ClInclude Include="SDK\VE_CoreUObject_structs.hpp" />
-    <ClInclude Include="SDK\VE_Engine_classes.hpp" />
-    <ClInclude Include="SDK\VE_Engine_parameters.hpp" />
-    <ClInclude Include="SDK\VE_Engine_structs.hpp" />
+    <ClInclude Include="SDK\VX_Basic.hpp" />
+    <ClInclude Include="SDK\VX_CoreUObject_classes.hpp" />
+    <ClInclude Include="SDK\VX_CoreUObject_parameters.hpp" />
+    <ClInclude Include="SDK\VX_CoreUObject_structs.hpp" />
+    <ClInclude Include="SDK\VX_Engine_classes.hpp" />
+    <ClInclude Include="SDK\VX_Engine_parameters.hpp" />
+    <ClInclude Include="SDK\VX_Engine_structs.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="SDK.cpp" />
-    <ClCompile Include="SDK\VE_Basic.cpp" />
-    <ClCompile Include="SDK\VE_CoreUObject_functions.cpp" />
-    <ClCompile Include="SDK\VE_Engine_functions.cpp" />
+    <ClCompile Include="SDK\VX_Basic.cpp" />
+    <ClCompile Include="SDK\VX_CoreUObject_functions.cpp" />
+    <ClCompile Include="SDK\VX_Engine_functions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
